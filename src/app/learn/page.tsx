@@ -1,7 +1,8 @@
+
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { BookOpen } from "lucide-react";
+import { BookOpen, PlusCircle } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import tracksData from "@/lib/tracks.json";
@@ -54,6 +55,18 @@ export default function AllTracksPage() {
                             </Link>
                         )
                     })}
+                     <Card className="h-full flex flex-col overflow-hidden bg-muted/50 border-dashed">
+                        <CardHeader>
+                            <CardTitle className="font-headline text-2xl">More Coming Soon!</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow flex flex-col items-center justify-center text-center">
+                            <PlusCircle className="h-16 w-16 text-muted-foreground mb-4" />
+                            <CardDescription>We're working hard to bring you new learning tracks on topics like NFT development, DAO governance, and more.</CardDescription>
+                        </CardContent>
+                        <CardFooter className='p-4'>
+                            <p className="text-sm text-muted-foreground">Stay tuned for updates!</p>
+                        </CardFooter>
+                    </Card>
                   </div>
             </main>
         </div>
