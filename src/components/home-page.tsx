@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { Header } from "./header";
 import { AiChatWidget } from "./ai/ai-chat-widget";
-import { ArrowDown, BookOpen } from 'lucide-react';
+import { ArrowDown, BookOpen, Layers, Lightbulb, Users } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import tracksData from '@/lib/tracks.json';
@@ -53,6 +53,40 @@ export function HomePage() {
                     </div>
                      <div className="absolute bottom-10 animate-bounce">
                         <ArrowDown className="h-6 w-6 text-muted-foreground" />
+                    </div>
+                </section>
+
+                <section id="about" className="py-20 lg:py-24">
+                    <div className="container">
+                        <div className="text-center mb-12">
+                            <h2 className="font-headline text-3xl md:text-4xl font-bold">What is NaijaWeb3Tutor?</h2>
+                            <p className="max-w-3xl mx-auto text-muted-foreground mt-4">
+                                We are your friendly guide to the world of Web3, tailored specifically for the Nigerian market. Our platform is designed to demystify blockchain technology and empower you with the skills to build the future of the internet.
+                            </p>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                            <div className="flex flex-col items-center">
+                                <div className="bg-primary/10 p-4 rounded-full mb-4">
+                                    <Layers className="h-8 w-8 text-primary" />
+                                </div>
+                                <h3 className="font-headline text-xl font-bold mb-2">Curated Learning Tracks</h3>
+                                <p className="text-muted-foreground">Follow structured paths from basics to advanced topics like DeFi and Smart Contracts, all at your own pace.</p>
+                            </div>
+                            <div className="flex flex-col items-center">
+                                <div className="bg-accent/10 p-4 rounded-full mb-4">
+                                    <Lightbulb className="h-8 w-8 text-accent" />
+                                </div>
+                                <h3 className="font-headline text-xl font-bold mb-2">Practical Knowledge</h3>
+                                <p className="text-muted-foreground">Gain hands-on skills through video tutorials and real-world examples that you can apply immediately.</p>
+                            </div>
+                             <div className="flex flex-col items-center">
+                                <div className="bg-primary/10 p-4 rounded-full mb-4">
+                                    <Users className="h-8 w-8 text-primary" />
+                                </div>
+                                <h3 className="font-headline text-xl font-bold mb-2">Community Focused</h3>
+                                <p className="text-muted-foreground">Connect with fellow learners and find opportunities within the vibrant Nigerian & African Web3 ecosystem.</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
 

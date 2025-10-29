@@ -1,15 +1,19 @@
 
+'use client';
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, CheckCircle, Clock } from "lucide-react";
+import { ArrowLeft, BookOpen, CheckCircle, Clock, Youtube } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import tracksData from "@/lib/tracks.json";
 import lessonsData from "@/lib/lessons.json";
 import type { Lesson, Track } from "@/lib/types";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { useRouter } from 'next/navigation';
 
 export default function TrackPage({ params }: { params: { trackId: string } }) {
+    const router = useRouter();
     const allTracks: Track[] = tracksData as Track[];
     const allLessons: Lesson[] = lessonsData as Lesson[];
 
@@ -20,7 +24,8 @@ export default function TrackPage({ params }: { params: { trackId: string } }) {
     if (!track) {
         return (
             <div className="container mx-auto p-4 min-h-screen">
-                <Button asChild variant="outline">
+                 <Header />
+                <Button asChild variant="outline" className="mt-8">
                     <Link href="/">
                         <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
                     </Link>
@@ -75,44 +80,48 @@ export default function TrackPage({ params }: { params: { trackId: string } }) {
                             {lessons.map((lesson, index) => {
                                 const lessonImage = PlaceHolderImages.find(img => img.id === lesson.imageId);
                                 return (
-                                    <Card key={lesson.id} className="overflow-hidden transition-all hover:shadow-md">
-                                        <div className="flex">
-                                            <div className="relative w-32 h-full hidden sm:block">
-                                                {lessonImage && (
-                                                    <Image
-                                                        src={lessonImage.imageUrl}
-                                                        alt={lessonImage.description}
-                                                        fill
-                                                        className="object-cover"
-                                                        data-ai-hint={lessonImage.imageHint}
-                                                    />
-                                                )}
-                                            </div>
-                                            <div className="flex-1">
-                                                <CardHeader>
-                                                    <CardTitle className="text-xl">{lesson.title}</CardTitle>
-                                                    <CardDescription>{lesson.subtitle}</CardDescription>
-                                                </CardHeader>
-                                                <CardContent>
-                                                    <div className="flex items-center text-sm text-muted-foreground gap-4">
-                                                        <div className="flex items-center gap-1">
-                                                            <Clock className="h-4 w-4" />
-                                                            <span>{lesson.duration} mins</span>
-                                                        </div>
-                                                        <div className="flex items-center gap-1">
-                                                            <BookOpen className="h-4 w-4" />
-                                                            <span>{lesson.xp} XP</span>
-                                                        </div>
+                                    <Link key={lesson.id} href={`/learn/${track.id}/${lesson.id}`} legacyBehavior>
+                                        <a className="block">
+                                            <Card className="overflow-hidden transition-all hover:shadow-lg hover:border-primary/50">
+                                                <div className="flex">
+                                                    <div className="relative w-32 h-full hidden sm:block">
+                                                        {lessonImage && (
+                                                            <Image
+                                                                src={lessonImage.imageUrl}
+                                                                alt={lessonImage.description}
+                                                                fill
+                                                                className="object-cover"
+                                                                data-ai-hint={lessonImage.imageHint}
+                                                            />
+                                                        )}
                                                     </div>
-                                                </CardContent>
-                                                <CardFooter className="bg-muted/50 px-6 py-3">
-                                                      <Button variant="secondary" disabled>
-                                                        Coming Soon
-                                                    </Button>
-                                                </CardFooter>
-                                            </div>
-                                        </div>
-                                    </Card>
+                                                    <div className="flex-1">
+                                                        <CardHeader>
+                                                            <CardTitle className="text-xl">{lesson.title}</CardTitle>
+                                                            <CardDescription>{lesson.subtitle}</CardDescription>
+                                                        </CardHeader>
+                                                        <CardContent>
+                                                            <div className="flex items-center text-sm text-muted-foreground gap-4">
+                                                                <div className="flex items-center gap-1">
+                                                                    <Clock className="h-4 w-4" />
+                                                                    <span>{lesson.duration} mins</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-1 text-red-500">
+                                                                    <Youtube className="h-4 w-4" />
+                                                                    <span>Video Lesson</span>
+                                                                </div>
+                                                            </div>
+                                                        </CardContent>
+                                                        <CardFooter className="bg-muted/50 px-6 py-3">
+                                                            <Button variant="secondary">
+                                                                Start Lesson
+                                                            </Button>
+                                                        </CardFooter>
+                                                    </div>
+                                                </div>
+                                            </Card>
+                                        </a>
+                                    </Link>
                                 );
                             })}
                         </div>
@@ -123,12 +132,9 @@ export default function TrackPage({ params }: { params: { trackId: string } }) {
     );
 }
 
-// ShadCN UI components for styling
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-
-export async function generateStaticParams() {
-  const tracks: Track[] = tracksData as Track[];
-  return tracks.map((track) => ({
-    trackId: track.id,
-  }));
+export function generateStaticParams() {
+    const tracks: Track[] = tracksData;
+    return tracks.map((track) => ({
+      trackId: track.id,
+    }));
 }

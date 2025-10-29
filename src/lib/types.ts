@@ -12,8 +12,9 @@ export type Lesson = {
   title: string;
   subtitle: string;
   duration: number;
-  xp: number;
   imageId: string;
+  youtubeUrl: string;
+  description?: string;
 };
 
 export type Progress = {

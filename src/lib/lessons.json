@@ -5,9 +5,10 @@
         "trackId": "web3-basics",
         "title": "What is a Blockchain?",
         "subtitle": "The foundation of Web3.",
-        "duration": 5,
-        "xp": 10,
-        "imageId": "lesson-what-is-blockchain"
+        "duration": 10,
+        "imageId": "lesson-what-is-blockchain",
+        "youtubeUrl": "https://www.youtube.com/watch?v=yubzJw0uiE4",
+        "description": "This video provides a simple, clear explanation of what a blockchain is, how it works, and why it's a revolutionary technology. Perfect for absolute beginners."
     },
     {
         "id": "what-is-cryptocurrency",
@@ -15,17 +16,19 @@
         "title": "What is Cryptocurrency?",
         "subtitle": "Understanding digital money.",
         "duration": 7,
-        "xp": 15,
-        "imageId": "lesson-what-is-crypto"
+        "imageId": "lesson-what-is-crypto",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1Yy7b6VvP1s",
+        "description": "Learn about the basics of cryptocurrency, from Bitcoin to altcoins. This lesson covers how they are created, stored, and used in the digital economy."
     },
     {
         "id": "what-are-nfts",
         "trackId": "web3-basics",
         "title": "What are NFTs?",
         "subtitle": "Exploring digital ownership.",
-        "duration": 6,
-        "xp": 12,
-        "imageId": "lesson-what-is-nft"
+        "duration": 8,
+        "imageId": "lesson-what-is-nft",
+        "youtubeUrl": "https://www.youtube.com/watch?v=a8_w-dJ2s-o",
+        "description": "Dive into the world of Non-Fungible Tokens (NFTs). Understand what they are, how they work, and their impact on art, gaming, and digital identity."
     },
     {
         "id": "what-is-solana",
@@ -33,25 +36,68 @@
         "title": "Introduction to Solana",
         "subtitle": "Learn about high-speed blockchain.",
         "duration": 5,
-        "xp": 20,
-        "imageId": "lesson-what-is-solana"
+        "imageId": "lesson-what-is-solana",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1j_1y-CP0oE",
+        "description": "Get a quick introduction to Solana, a blockchain known for its incredible speed and low transaction costs. Discover what makes it different from other networks."
     },
     {
         "id": "solana-ecosystem",
         "trackId": "solana-essentials",
         "title": "The Solana Ecosystem",
         "subtitle": "Discover dApps and projects.",
-        "duration": 8,
-        "xp": 25,
-        "imageId": "lesson-solana-ecosystem"
+        "duration": 12,
+        "imageId": "lesson-solana-ecosystem",
+        "youtubeUrl": "https://www.youtube.com/watch?v=3-a1g_S_A-I",
+        "description": "Explore the vibrant ecosystem of decentralized applications (dApps) built on Solana, from DeFi protocols to NFT marketplaces."
+    },
+    {
+        "id": "solana-wallet-setup",
+        "trackId": "solana-essentials",
+        "title": "Setting Up a Solana Wallet",
+        "subtitle": "Your gateway to the Solana ecosystem.",
+        "duration": 6,
+        "imageId": "lesson-what-is-defi",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sTj4p0p_s2c",
+        "description": "A step-by-step guide to setting up your first Solana wallet, like Phantom or Solflare, so you can start interacting with the ecosystem."
     },
     {
         "id": "what-is-defi",
         "trackId": "defi-mastery",
         "title": "What is DeFi?",
         "subtitle": "Introduction to Decentralized Finance.",
-        "duration": 7,
-        "xp": 30,
-        "imageId": "lesson-what-is-defi"
+        "duration": 9,
+        "imageId": "lesson-what-is-defi",
+        "youtubeUrl": "https://www.youtube.com/watch?v=k9rR0gSg-p4",
+        "description": "An overview of Decentralized Finance (DeFi), explaining how it aims to build a new financial system on the blockchain, open to everyone."
+    },
+    {
+        "id": "defi-lending-borrowing",
+        "trackId": "defi-mastery",
+        "title": "Lending & Borrowing in DeFi",
+        "subtitle": "Become your own bank.",
+        "duration": 11,
+        "imageId": "lesson-what-is-blockchain",
+        "youtubeUrl": "https://www.youtube.com/watch?v=p-i_mK2_s_4",
+        "description": "Learn how you can earn interest on your crypto by lending it out, or take out loans without a middleman, through DeFi protocols."
+    },
+    {
+        "id": "intro-smart-contracts",
+        "trackId": "smart-contract-dev",
+        "title": "Intro to Smart Contracts",
+        "subtitle": "Code that executes itself.",
+        "duration": 15,
+        "imageId": "lesson-what-is-crypto",
+        "youtubeUrl": "https://www.youtube.com/watch?v=pWGLtjG-F5c",
+        "description": "Understand the fundamentals of smart contracts, the self-executing programs that are the backbone of dApps and DeFi."
+    },
+    {
+        "id": "solidity-basics",
+        "trackId": "smart-contract-dev",
+        "title": "Solidity for Beginners",
+        "subtitle": "The language of Ethereum.",
+        "duration": 20,
+        "imageId": "lesson-solana-ecosystem",
+        "youtubeUrl": "https://www.youtube.com/watch?v=rzR_c2i_i2c",
+        "description": "Get started with Solidity, the most popular programming language for writing smart contracts on Ethereum and other compatible blockchains."
     }
 ]

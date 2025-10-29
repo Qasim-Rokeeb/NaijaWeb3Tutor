@@ -17,6 +17,9 @@ export default {
       },
     },
     extend: {
+      aspectRatio: {
+        '16/9': '16 / 9',
+      },
       fontFamily: {
         body: ['Inter', 'sans-serif'],
         headline: ['"Clash Display"', 'sans-serif'],
@@ -104,5 +107,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), require('@tailwindcss/aspect-ratio')],
 } satisfies Config;

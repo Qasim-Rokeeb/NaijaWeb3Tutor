@@ -3,7 +3,7 @@
     {
         "id": "web3-basics",
         "title": "Web3 Basics",
-        "description": "Your first step into the decentralized world. Learn about blockchain, crypto, and NFTs.",
+        "description": "Your first step into the decentralized world. Learn about blockchain, crypto, and NFTs. Perfect for absolute beginners.",
         "imageId": "track-web3-basics"
     },
     {
@@ -17,5 +17,11 @@
         "title": "DeFi Mastery",
         "description": "Explore the world of Decentralized Finance. Learn about lending, borrowing, and yield farming.",
         "imageId": "track-defi-mastery"
+    },
+    {
+        "id": "smart-contract-dev",
+        "title": "Smart Contract Development",
+        "description": "Learn the fundamentals of building smart contracts. A great starting point for aspiring blockchain developers.",
+        "imageId": "track-web3-basics"
     }
 ]
