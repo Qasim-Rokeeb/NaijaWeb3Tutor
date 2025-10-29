@@ -55,15 +55,15 @@ export function HomePage() {
                        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
                    </div>
 
-                    <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+                    <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-in fade-in slide-in-from-bottom-4 duration-500">
                         Everything you need to get started in Web3.
                         <br />
                         <span className="text-primary">Built for Nigeria.</span>
                     </h1>
-                    <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
+                    <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground animate-in fade-in slide-in-from-bottom-6 duration-500 delay-200">
                         Simplifying your Web3 journey. We're on a mission to onboard the next wave of Nigerian talent into the global decentralized ecosystem. No complex jargon, just clear learning paths.
                     </p>
-                    <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-500 delay-400">
                         <Button asChild size="lg" className="font-semibold">
                             <Link href="/#tracks">
                                 Start Learning
