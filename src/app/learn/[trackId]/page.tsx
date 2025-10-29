@@ -1,19 +1,16 @@
 
-'use client';
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, CheckCircle, Clock, Youtube } from "lucide-react";
+import { ArrowLeft, Youtube, Clock } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import tracksData from "@/lib/tracks.json";
 import lessonsData from "@/lib/lessons.json";
 import type { Lesson, Track } from "@/lib/types";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { useRouter } from 'next/navigation';
 
 export default function TrackPage({ params }: { params: { trackId: string } }) {
-    const router = useRouter();
     const allTracks: Track[] = tracksData as Track[];
     const allLessons: Lesson[] = lessonsData as Lesson[];
 
