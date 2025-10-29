@@ -3,7 +3,6 @@ import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, ExternalLink } from "lucide-react";
-import Link from "next/link";
 
 const communities = [
     {
@@ -21,6 +20,21 @@ const communities = [
         description: "A Nigerian community of developers, designers, and creators learning and building in Web3. They host meetups, workshops, and collaborative projects.",
         link: "https://twitter.com/devlog_/",
     },
+    {
+        name: "She Code Africa",
+        description: "A non-profit organization focused on celebrating and empowering young girls and women in technology across Africa. They offer mentorship, resources, and training.",
+        link: "https://shecodeafrica.org/",
+    },
+    {
+        name: "Web3 Nigeria",
+        description: "A community dedicated to growing the Web3 ecosystem in Nigeria through education, meetups, and hackathons. Great for networking and finding local opportunities.",
+        link: "https://twitter.com/web3nigeria",
+    },
+    {
+        name: "ForLoop Africa",
+        description: "A pan-African community of software developers and enthusiasts. While not strictly Web3, it's a massive network for any developer looking to connect and grow.",
+        link: "https://forloop.africa/",
+    },
 ];
 
 export default function CommunitiesPage() {
@@ -37,7 +51,7 @@ export default function CommunitiesPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {communities.map((community) => (
-                        <Card key={community.name} className="flex flex-col">
+                        <Card key={community.name} className="flex flex-col transform hover:-translate-y-1 transition-transform duration-300">
                             <CardHeader>
                                 <div className="flex items-center gap-4">
                                     <div className="bg-primary/10 p-3 rounded-full">
@@ -52,8 +66,9 @@ export default function CommunitiesPage() {
                             <CardFooter>
                                 <Button asChild className="w-full" variant="outline">
                                     <a href={community.link} target="_blank" rel="noopener noreferrer">
-                                        Visit Community <ExternalLink className="ml-2" />
+                                        Visit Community <ExternalLink className="ml-2 h-4 w-4" />
                                     </a>
+
                                 </Button>
                             </CardFooter>
                         </Card>

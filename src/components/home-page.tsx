@@ -5,10 +5,15 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { Header } from "./header";
 import { AiChatWidget } from "./ai/ai-chat-widget";
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, BookOpen } from 'lucide-react';
 import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import tracksData from '@/lib/tracks.json';
+import type { Track } from '@/lib/types';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 
 export function HomePage() {
+    const tracks: Track[] = tracksData;
 
     return (
         <div className="min-h-screen bg-background text-foreground">
@@ -21,27 +26,28 @@ export function HomePage() {
                          alt="Abstract network"
                          fill
                          className="object-cover opacity-10 dark:opacity-20"
+                         data-ai-hint="network abstract"
                        />
                        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
                    </div>
 
                     <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                        From Naija to the Next Block:
+                        Everything you need to get started in Web3.
                         <br />
-                        <span className="text-primary">Your Web3 Future Starts Here.</span>
+                        <span className="text-primary">Built for Nigeria.</span>
                     </h1>
                     <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground">
-                        We are unlocking Nigeria's potential in the decentralized world. Learn, build, and connect with the global Web3 ecosystem, right from your phone. No wallet, no wahala.
+                        Simplifying your Web3 journey. We're on a mission to onboard the next wave of Nigerian talent into the global decentralized ecosystem. No complex jargon, just clear learning paths.
                     </p>
                     <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Button asChild size="lg" className="font-semibold">
                             <Link href="/#tracks">
-                                Start Your Journey
+                                Start Learning
                             </Link>
                         </Button>
                         <Button asChild size="lg" variant="outline" className="font-semibold">
                             <Link href="/communities">
-                                Join the Community
+                                Join a Community
                             </Link>
                         </Button>
                     </div>
@@ -50,17 +56,50 @@ export function HomePage() {
                     </div>
                 </section>
 
-                <section id="tracks" className="py-20 bg-secondary">
-                  <div className="container text-center">
-                      <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Ready to Begin?</h2>
-                      <p className="max-w-2xl mx-auto text-muted-foreground mb-10">
-                          These learning tracks are your first step. We'll add more soon, but for now, let's get you started with the basics.
-                      </p>
-                       <Button asChild size="lg">
-                            <Link href="/learn/web3-basics">
-                                Go to Web3 Basics Track
-                            </Link>
-                        </Button>
+                <section id="tracks" className="py-20 lg:py-24 bg-secondary">
+                  <div className="container">
+                      <div className="text-center mb-12">
+                        <h2 className="font-headline text-3xl md:text-4xl font-bold">Choose Your Learning Path</h2>
+                        <p className="max-w-2xl mx-auto text-muted-foreground mt-4">
+                            These learning tracks are your first step into Web3. Start with the basics or dive into a specific ecosystem.
+                        </p>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {tracks.map(track => {
+                            const trackImage = PlaceHolderImages.find(img => img.id === track.imageId);
+                            return (
+                                <Link href={`/learn/${track.id}`} key={track.id} legacyBehavior>
+                                    <a className="block transform hover:-translate-y-2 transition-transform duration-300">
+                                        <Card className="h-full flex flex-col overflow-hidden">
+                                            {trackImage && (
+                                                 <div className="relative aspect-video">
+                                                    <Image 
+                                                        src={trackImage.imageUrl}
+                                                        alt={trackImage.description}
+                                                        fill
+                                                        className="object-cover"
+                                                        data-ai-hint={trackImage.imageHint}
+                                                    />
+                                                 </div>
+                                            )}
+                                            <CardHeader>
+                                                <CardTitle className="font-headline text-2xl">{track.title}</CardTitle>
+                                            </CardHeader>
+                                            <CardContent className="flex-grow">
+                                                <CardDescription>{track.description}</CardDescription>
+                                            </CardContent>
+                                            <CardFooter className='bg-muted/50 p-4'>
+                                                <div className="flex items-center gap-2 text-sm font-medium text-primary">
+                                                    <BookOpen className="h-5 w-5" />
+                                                    <span>Start Track</span>
+                                                </div>
+                                            </CardFooter>
+                                        </Card>
+                                    </a>
+                                </Link>
+                            )
+                        })}
+                      </div>
                   </div>
                 </section>
             </main>

@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": "web3-basics",
+        "title": "Web3 Basics",
+        "description": "Your first step into the decentralized world. Learn about blockchain, crypto, and NFTs.",
+        "imageId": "track-web3-basics"
+    },
+    {
+        "id": "solana-essentials",
+        "title": "Solana Essentials",
+        "description": "Dive into the high-speed Solana ecosystem. Understand its architecture and discover popular dApps.",
+        "imageId": "track-solana-essentials"
+    },
+    {
+        "id": "defi-mastery",
+        "title": "DeFi Mastery",
+        "description": "Explore the world of Decentralized Finance. Learn about lending, borrowing, and yield farming.",
+        "imageId": "track-defi-mastery"
+    }
+]
