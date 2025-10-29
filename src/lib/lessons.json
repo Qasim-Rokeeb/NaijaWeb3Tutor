@@ -1,3 +1,4 @@
+
 [
     {
         "id": "what-is-blockchain",
@@ -14,9 +15,9 @@
         "trackId": "web3-basics",
         "title": "What is Cryptocurrency?",
         "subtitle": "Understanding digital money.",
-        "duration": 13,
+        "duration": 7,
         "imageId": "lesson-what-is-crypto",
-        "youtubeUrl": "https://www.youtube.com/watch?v=6Gu2QMTAkEU",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1YyAzVmP9xQ",
         "description": "Learn about the basics of cryptocurrency, from Bitcoin to altcoins. This lesson covers how they are created, stored, and used in the digital economy."
     },
     {
@@ -24,9 +25,9 @@
         "trackId": "web3-basics",
         "title": "What are NFTs?",
         "subtitle": "Exploring digital ownership.",
-        "duration": 6,
+        "duration": 8,
         "imageId": "lesson-what-is-nft",
-        "youtubeUrl": "https://www.youtube.com/watch?v=a8_w-dJ2s-o",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Xdkkux6OxfM",
         "description": "Dive into the world of Non-Fungible Tokens (NFTs). Understand what they are, how they work, and their impact on art, gaming, and digital identity."
     },
     {
@@ -34,9 +35,9 @@
         "trackId": "solana-essentials",
         "title": "Introduction to Solana",
         "subtitle": "Learn about high-speed blockchain.",
-        "duration": 9,
+        "duration": 10,
         "imageId": "lesson-what-is-solana",
-        "youtubeUrl": "https://www.youtube.com/watch?v=1j3s_w-tFjI",
+        "youtubeUrl": "https://www.youtube.com/watch?v=41h_yIv_2i8",
         "description": "Get a quick introduction to Solana, a blockchain known for its incredible speed and low transaction costs. Discover what makes it different from other networks."
     },
     {
@@ -44,9 +45,9 @@
         "trackId": "solana-essentials",
         "title": "The Solana Ecosystem",
         "subtitle": "Discover dApps and projects.",
-        "duration": 11,
+        "duration": 9,
         "imageId": "lesson-solana-ecosystem",
-        "youtubeUrl": "https://www.youtube.com/watch?v=s7b5dlyy5gA",
+        "youtubeUrl": "https://www.youtube.com/watch?v=3vfJu-n1fI8",
         "description": "Explore the vibrant ecosystem of decentralized applications (dApps) built on Solana, from DeFi protocols to NFT marketplaces."
     },
     {
@@ -54,9 +55,9 @@
         "trackId": "solana-essentials",
         "title": "Setting Up a Solana Wallet",
         "subtitle": "Your gateway to the Solana ecosystem.",
-        "duration": 8,
+        "duration": 6,
         "imageId": "lesson-solana-wallet-setup",
-        "youtubeUrl": "https://www.youtube.com/watch?v=52zQc2m203c",
+        "youtubeUrl": "https://www.youtube.com/watch?v=r1y_gE2uH2A",
         "description": "A step-by-step guide to setting up your first Solana wallet, like Phantom or Solflare, so you can start interacting with the ecosystem."
     },
     {
