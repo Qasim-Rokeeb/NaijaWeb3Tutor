@@ -58,7 +58,7 @@ export function HomePage() {
                     <div className="mb-6 animate-in fade-in slide-in-from-bottom-2 duration-500 delay-100">
                         <div className="inline-block rounded-full bg-gradient-to-r from-accent to-primary p-0.5">
                             <div className="rounded-full bg-background/80 px-4 py-1.5 text-sm font-medium">
-                                In partnership with <span className="font-bold text-accent">Solana</span> & <span className="font-bold text-primary">Niya</span>
+                                In partnership with <span className="font-bold text-accent">Solana</span> & <span className="font-bold text-primary">NiYA</span>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ export function HomePage() {
                                              <div className="relative aspect-video">
                                                 <Image 
                                                     src={trackImage.imageUrl}
-                                                    alt={trackImage.description}
+                                                    alt={track.description}
                                                     fill
                                                     className="object-cover"
                                                     data-ai-hint={trackImage.imageHint}

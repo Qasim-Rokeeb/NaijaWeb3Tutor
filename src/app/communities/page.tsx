@@ -5,6 +5,11 @@ import { Users, ExternalLink } from "lucide-react";
 
 const communities = [
     {
+        name: "Solana Superteam NG",
+        description: "The Nigerian chapter of the Solana Superteam. A hub for Solana developers and enthusiasts to collaborate, earn, and build on the Solana network.",
+        link: "https://x.com/SuperteamNG",
+    },
+    {
         name: "Web3Bridge",
         description: "A program focused on identifying Web3 talents in Africa, training them in a remote and collaborative environment, and creating an ecosystem of sustainable Web3 developers.",
         link: "https://web3bridge.com/",
@@ -34,11 +39,6 @@ const communities = [
         description: "A pan-African community of software developers and enthusiasts. While not strictly Web3, it's a massive network for any developer looking to connect and grow.",
         link: "https://forloop.africa/",
     },
-    {
-        name: "Solana Superteam NG",
-        description: "The Nigerian chapter of the Solana Superteam. A hub for Solana developers and enthusiasts to collaborate, earn, and build on the Solana network.",
-        link: "https://x.com/SuperteamNG",
-    }
 ];
 
 export default function CommunitiesPage() {
