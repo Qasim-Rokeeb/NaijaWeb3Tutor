@@ -18,24 +18,24 @@ export function HomePage() {
 
     const faqs = [
         {
-          question: "What is Web3?",
-          answer: "Web3 is the next evolution of the internet, built on decentralized technologies like blockchain. It's about shifting power from large corporations to individual users, giving you more control over your data and digital identity."
+          question: "What is NaijaWeb3Tutor?",
+          answer: "NaijaWeb3Tutor is a free, mobile-first learning platform designed to make Web3 education accessible to Nigerians. Our mission is to simplify complex topics like blockchain, cryptocurrency, and decentralized finance, and empower the next generation of Nigerian builders and innovators in the Web3 space."
         },
         {
-          question: "Do I need to know how to code?",
-          answer: "Not at all! Our 'Web3 Basics' track is designed for absolute beginners with no coding experience. We'll start with the fundamental concepts. If you do want to learn to code, we have tracks for that too!"
+          question: "Who is this platform for?",
+          answer: "This platform is for any Nigerian who is curious about Web3, regardless of their background. Whether you're a student, a developer looking to switch careers, an entrepreneur, or just someone who wants to understand the future of the internet, our learning paths are designed to get you started."
         },
         {
-          question: "Is this platform really free?",
-          answer: "Yes, all the learning materials on NaijaWeb3Tutor are completely free. Our mission is to make Web3 education accessible to as many Nigerians as possible."
+          question: "How much does it cost?",
+          answer: "It's completely free! We believe in breaking down barriers to entry. All our learning tracks, video lessons, and resources are available at no cost. Our goal is to empower you with knowledge."
         },
         {
-            question: "What is a 'wallet' in Web3?",
-            answer: "A Web3 wallet (like MetaMask or Phantom) is a digital wallet that allows you to store, send, and receive cryptocurrencies and NFTs. It's your personal gateway to interacting with decentralized applications (dApps)."
+            question: "How do the learning tracks work?",
+            answer: "Our learning tracks are curated paths designed to take you from beginner to more advanced topics in a structured way. Each track consists of several lessons, complete with video tutorials that you can watch directly on our site. Just pick a track that interests you and start learning at your own pace."
         },
         {
-          question: "How do I get involved in the community?",
-          answer: "Check out our 'Join Web3 Communities' page! We've listed some of the most active and supportive communities in Nigeria and across Africa. Joining one is the best way to network, learn, and find opportunities."
+          question: "How is this different from other learning platforms?",
+          answer: "NaijaWeb3Tutor is built with the Nigerian learner in mind. We focus on providing content that is relatable, easy to understand, and mobile-friendly. We also connect you with local communities and opportunities, helping you to not just learn, but also get involved in the African Web3 ecosystem."
         }
       ];
 
