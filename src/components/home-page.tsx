@@ -55,6 +55,14 @@ export function HomePage() {
                        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
                    </div>
 
+                    <div className="mb-6 animate-in fade-in slide-in-from-bottom-2 duration-500 delay-100">
+                        <div className="inline-block rounded-full bg-gradient-to-r from-accent to-primary p-0.5">
+                            <div className="rounded-full bg-background/80 px-4 py-1.5 text-sm font-medium">
+                                In partnership with <span className="font-bold text-accent">Solana</span> & <span className="font-bold text-primary">Niya</span>
+                            </div>
+                        </div>
+                    </div>
+
                     <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-in fade-in slide-in-from-bottom-4 duration-500">
                         Everything you need to get started in Web3.
                         <br />

@@ -37,7 +37,7 @@
         "subtitle": "Learn about high-speed blockchain.",
         "duration": 10,
         "imageId": "lesson-what-is-solana",
-        "youtubeUrl": "https://www.youtube.com/watch?v=41h_yIv_2i8",
+        "youtubeUrl": "https://www.youtube.com/watch?v=9m21v0de-1E",
         "description": "Get a quick introduction to Solana, a blockchain known for its incredible speed and low transaction costs. Discover what makes it different from other networks."
     },
     {
@@ -45,9 +45,9 @@
         "trackId": "solana-essentials",
         "title": "The Solana Ecosystem",
         "subtitle": "Discover dApps and projects.",
-        "duration": 9,
+        "duration": 11,
         "imageId": "lesson-solana-ecosystem",
-        "youtubeUrl": "https://www.youtube.com/watch?v=3vfJu-n1fI8",
+        "youtubeUrl": "https://www.youtube.com/watch?v=6pZY1VjV-8Y",
         "description": "Explore the vibrant ecosystem of decentralized applications (dApps) built on Solana, from DeFi protocols to NFT marketplaces."
     },
     {
@@ -55,9 +55,9 @@
         "trackId": "solana-essentials",
         "title": "Setting Up a Solana Wallet",
         "subtitle": "Your gateway to the Solana ecosystem.",
-        "duration": 6,
+        "duration": 5,
         "imageId": "lesson-solana-wallet-setup",
-        "youtubeUrl": "https://www.youtube.com/watch?v=r1y_gE2uH2A",
+        "youtubeUrl": "https://www.youtube.com/watch?v=a-i2aW-DR3s",
         "description": "A step-by-step guide to setting up your first Solana wallet, like Phantom or Solflare, so you can start interacting with the ecosystem."
     },
     {
