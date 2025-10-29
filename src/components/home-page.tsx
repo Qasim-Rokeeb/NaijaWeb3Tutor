@@ -126,34 +126,32 @@ export function HomePage() {
                         {tracks.map(track => {
                             const trackImage = PlaceHolderImages.find(img => img.id === track.imageId);
                             return (
-                                <Link href={`/learn/${track.id}`} key={track.id} legacyBehavior>
-                                    <a className="block transform hover:-translate-y-2 transition-transform duration-300">
-                                        <Card className="h-full flex flex-col overflow-hidden">
-                                            {trackImage && (
-                                                 <div className="relative aspect-video">
-                                                    <Image 
-                                                        src={trackImage.imageUrl}
-                                                        alt={trackImage.description}
-                                                        fill
-                                                        className="object-cover"
-                                                        data-ai-hint={trackImage.imageHint}
-                                                    />
-                                                 </div>
-                                            )}
-                                            <CardHeader>
-                                                <CardTitle className="font-headline text-2xl">{track.title}</CardTitle>
-                                            </CardHeader>
-                                            <CardContent className="flex-grow">
-                                                <CardDescription>{track.description}</CardDescription>
-                                            </CardContent>
-                                            <CardFooter className='bg-muted/50 p-4'>
-                                                <div className="flex items-center gap-2 text-sm font-medium text-primary">
-                                                    <BookOpen className="h-5 w-5" />
-                                                    <span>Start Track</span>
-                                                </div>
-                                            </CardFooter>
-                                        </Card>
-                                    </a>
+                                <Link href={`/learn/${track.id}`} key={track.id} className="block transform hover:-translate-y-2 transition-transform duration-300">
+                                    <Card className="h-full flex flex-col overflow-hidden">
+                                        {trackImage && (
+                                             <div className="relative aspect-video">
+                                                <Image 
+                                                    src={trackImage.imageUrl}
+                                                    alt={trackImage.description}
+                                                    fill
+                                                    className="object-cover"
+                                                    data-ai-hint={trackImage.imageHint}
+                                                />
+                                             </div>
+                                        )}
+                                        <CardHeader>
+                                            <CardTitle className="font-headline text-2xl">{track.title}</CardTitle>
+                                        </CardHeader>
+                                        <CardContent className="flex-grow">
+                                            <CardDescription>{track.description}</CardDescription>
+                                        </CardContent>
+                                        <CardFooter className='bg-muted/50 p-4'>
+                                            <div className="flex items-center gap-2 text-sm font-medium text-primary">
+                                                <BookOpen className="h-5 w-5" />
+                                                <span>Start Track</span>
+                                            </div>
+                                        </CardFooter>
+                                    </Card>
                                 </Link>
                             )
                         })}

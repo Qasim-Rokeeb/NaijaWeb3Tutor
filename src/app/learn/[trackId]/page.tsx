@@ -77,47 +77,45 @@ export default function TrackPage({ params }: { params: { trackId: string } }) {
                             {lessons.map((lesson, index) => {
                                 const lessonImage = PlaceHolderImages.find(img => img.id === lesson.imageId);
                                 return (
-                                    <Link key={lesson.id} href={`/learn/${track.id}/${lesson.id}`} legacyBehavior>
-                                        <a className="block">
-                                            <Card className="overflow-hidden transition-all hover:shadow-lg hover:border-primary/50">
-                                                <div className="flex">
-                                                    <div className="relative w-32 h-full hidden sm:block">
-                                                        {lessonImage && (
-                                                            <Image
-                                                                src={lessonImage.imageUrl}
-                                                                alt={lessonImage.description}
-                                                                fill
-                                                                className="object-cover"
-                                                                data-ai-hint={lessonImage.imageHint}
-                                                            />
-                                                        )}
-                                                    </div>
-                                                    <div className="flex-1">
-                                                        <CardHeader>
-                                                            <CardTitle className="text-xl">{lesson.title}</CardTitle>
-                                                            <CardDescription>{lesson.subtitle}</CardDescription>
-                                                        </CardHeader>
-                                                        <CardContent>
-                                                            <div className="flex items-center text-sm text-muted-foreground gap-4">
-                                                                <div className="flex items-center gap-1">
-                                                                    <Clock className="h-4 w-4" />
-                                                                    <span>{lesson.duration} mins</span>
-                                                                </div>
-                                                                <div className="flex items-center gap-1 text-red-500">
-                                                                    <Youtube className="h-4 w-4" />
-                                                                    <span>Video Lesson</span>
-                                                                </div>
-                                                            </div>
-                                                        </CardContent>
-                                                        <CardFooter className="bg-muted/50 px-6 py-3">
-                                                            <Button variant="secondary">
-                                                                Start Lesson
-                                                            </Button>
-                                                        </CardFooter>
-                                                    </div>
+                                    <Link key={lesson.id} href={`/learn/${track.id}/${lesson.id}`} className="block">
+                                        <Card className="overflow-hidden transition-all hover:shadow-lg hover:border-primary/50">
+                                            <div className="flex">
+                                                <div className="relative w-32 h-full hidden sm:block">
+                                                    {lessonImage && (
+                                                        <Image
+                                                            src={lessonImage.imageUrl}
+                                                            alt={lessonImage.description}
+                                                            fill
+                                                            className="object-cover"
+                                                            data-ai-hint={lessonImage.imageHint}
+                                                        />
+                                                    )}
                                                 </div>
-                                            </Card>
-                                        </a>
+                                                <div className="flex-1">
+                                                    <CardHeader>
+                                                        <CardTitle className="text-xl">{lesson.title}</CardTitle>
+                                                        <CardDescription>{lesson.subtitle}</CardDescription>
+                                                    </CardHeader>
+                                                    <CardContent>
+                                                        <div className="flex items-center text-sm text-muted-foreground gap-4">
+                                                            <div className="flex items-center gap-1">
+                                                                <Clock className="h-4 w-4" />
+                                                                <span>{lesson.duration} mins</span>
+                                                            </div>
+                                                            <div className="flex items-center gap-1 text-red-500">
+                                                                <Youtube className="h-4 w-4" />
+                                                                <span>Video Lesson</span>
+                                                            </div>
+                                                        </div>
+                                                    </CardContent>
+                                                    <CardFooter className="bg-muted/50 px-6 py-3">
+                                                        <Button variant="secondary">
+                                                            Start Lesson
+                                                        </Button>
+                                                    </CardFooter>
+                                                </div>
+                                            </div>
+                                        </Card>
                                     </Link>
                                 );
                             })}
