@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": "what-is-blockchain",
+    "trackId": "web3-basics",
+    "title": "What is a Blockchain?",
+    "subtitle": "Understand the core technology behind Web3.",
+    "duration": 5,
+    "xp": 10,
+    "imageId": "lesson-what-is-blockchain"
+  },
+  {
+    "id": "what-is-crypto",
+    "trackId": "web3-basics",
+    "title": "What is Cryptocurrency?",
+    "subtitle": "Learn about digital money like Bitcoin and Ethereum.",
+    "duration": 7,
+    "xp": 10,
+    "imageId": "lesson-what-is-crypto"
+  },
+    {
+    "id": "what-is-nft",
+    "trackId": "web3-basics",
+    "title": "What are NFTs?",
+    "subtitle": "Explore the world of non-fungible tokens.",
+    "duration": 6,
+    "xp": 10,
+    "imageId": "lesson-what-is-nft"
+  },
+  {
+    "id": "what-is-solana",
+    "trackId": "solana-essentials",
+    "title": "What is Solana?",
+    "subtitle": "Discover the high-performance blockchain.",
+    "duration": 8,
+    "xp": 10,
+    "imageId": "lesson-what-is-solana"
+  },
+    {
+    "id": "solana-ecosystem",
+    "trackId": "solana-essentials",
+    "title": "The Solana Ecosystem",
+    "subtitle": "Learn about popular dApps and wallets.",
+    "duration": 12,
+    "xp": 10,
+    "imageId": "lesson-solana-ecosystem"
+  },
+  {
+    "id": "what-is-defi",
+    "trackId": "defi-mastery",
+    "title": "What is DeFi?",
+    "subtitle": "An introduction to Decentralized Finance.",
+    "duration": 9,
+    "xp": 10,
+    "imageId": "lesson-what-is-defi"
+  }
+]

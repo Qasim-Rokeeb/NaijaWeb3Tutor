@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "track-web3-basics",
+      "description": "Abstract network of nodes",
+      "imageUrl": "https://images.unsplash.com/photo-1750969185331-e03829f72c7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYxNzAxOTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network abstract"
+    },
+    {
+      "id": "track-solana-essentials",
+      "description": "Glowing cyan and purple abstract shapes",
+      "imageUrl": "https://images.unsplash.com/photo-1607936122886-35510aa8134d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGdsb3dpbmd8ZW58MHx8fHwxNzYxNzU3MzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract glowing"
+    },
+    {
+      "id": "track-defi-mastery",
+      "description": "Graph lines going up",
+      "imageUrl": "https://images.unsplash.com/photo-1645226880663-81561dcab0ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwY2hhcnR8ZW58MHx8fHwxNzYxNjY5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance chart"
+    },
+    {
+      "id": "lesson-what-is-blockchain",
+      "description": "Interconnected digital blocks",
+      "imageUrl": "https://images.unsplash.com/photo-1686139280531-1f5c476909b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkaWdpdGFsJTIwYmxvY2tzfGVufDB8fHx8MTc2MTY3MzIxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital blocks"
+    },
+    {
+      "id": "lesson-what-is-crypto",
+      "description": "Digital coin with circuits",
+      "imageUrl": "https://images.unsplash.com/photo-1666032250188-b6797784b249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkaWdpdGFsJTIwY29pbnxlbnwwfHx8fDE3NjE3NTczNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital coin"
+    },
+    {
+      "id": "lesson-what-is-nft",
+      "description": "Artistic digital monkey",
+      "imageUrl": "https://images.unsplash.com/photo-1707589337877-28fd431262ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb25rZXklMjBhcnR8ZW58MHx8fHwxNzYxNzU3MzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "monkey art"
+    },
+    {
+      "id": "lesson-what-is-solana",
+      "description": "Fast moving light trails",
+      "imageUrl": "https://images.unsplash.com/photo-1604818659418-1c53672b00f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGVlZCUyMGxpZ2h0fGVufDB8fHx8MTc2MTc1NzM0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speed light"
+    },
+    {
+      "id": "lesson-solana-ecosystem",
+      "description": "A vibrant city of dApps",
+      "imageUrl": "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwY2l0eXxlbnwwfHx8fDE3NjE3NTQ0NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital city"
+    },
+    {
+      "id": "lesson-what-is-defi",
+      "description": "Abstract financial chart with glowing nodes",
+      "imageUrl": "https://images.unsplash.com/photo-1639322537231-2f206e06af84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2MTc1NzM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "financial network"
+    },
+    {
+      "id": "avatar",
+      "description": "AI robot avatar",
+      "imageUrl": "https://images.unsplash.com/photo-1707912079134-becf5a3598e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyb2JvdCUyMGF2YXRhcnxlbnwwfHx8fDE3NjE2NjU0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robot avatar"
+    }
+  ]
 }

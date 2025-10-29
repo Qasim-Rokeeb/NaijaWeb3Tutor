@@ -1,0 +1,21 @@
+
+[
+  {
+    "id": "web3-basics",
+    "title": "Web3 Basics",
+    "description": "Start your journey into the world of decentralized technology.",
+    "imageId": "track-web3-basics"
+  },
+  {
+    "id": "solana-essentials",
+    "title": "Solana Essentials",
+    "description": "Learn the fundamentals of the high-speed Solana blockchain.",
+    "imageId": "track-solana-essentials"
+  },
+  {
+    "id": "defi-mastery",
+    "title": "DeFi Mastery",
+    "description": "Dive deep into decentralized finance, from lending to yield farming.",
+    "imageId": "track-defi-mastery"
+  }
+]
