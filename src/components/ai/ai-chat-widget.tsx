@@ -4,7 +4,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetFooter } from "@/components/ui/sheet";
-import { Robot, Send } from "lucide-react";
+import { Bot, Send } from "lucide-react";
 import { Input } from "../ui/input";
 import { AiChatPill, UserChatPill } from "./ai-chat-pill";
 import { ScrollArea } from "../ui/scroll-area";
@@ -77,7 +77,7 @@ export function AiChatWidget() {
                 onClick={() => setIsOpen(true)}
                 aria-label="Open AI Study Buddy"
             >
-                <Robot className="h-8 w-8" />
+                <Bot className="h-8 w-8" />
             </Button>
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
                 <SheetContent className="flex flex-col w-full sm:max-w-md">
