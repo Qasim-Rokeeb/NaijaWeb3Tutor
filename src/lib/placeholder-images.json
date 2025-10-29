@@ -19,6 +19,12 @@
       "imageHint": "finance chart"
     },
     {
+      "id": "track-smart-contract-dev",
+      "description": "Lines of code on a screen",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNvbnRyYWN0JTIwY29kZXxlbnwwfHx8fDE3NjIxNDU4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart contract code"
+    },
+    {
       "id": "lesson-what-is-blockchain",
       "description": "Interconnected digital blocks",
       "imageUrl": "https://images.unsplash.com/photo-1686139280531-1f5c476909b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkaWdpdGFsJTIwYmxvY2tzfGVufDB8fHx8MTc2MTY3MzIxMHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -49,10 +55,34 @@
       "imageHint": "digital city"
     },
     {
+      "id": "lesson-solana-wallet-setup",
+      "description": "A secure digital vault icon",
+      "imageUrl": "https://images.unsplash.com/photo-1718042453625-24e65035f583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwdmF1bHR8ZW58MHx8fHwxNzYyMTQ2MTU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital vault"
+    },
+    {
       "id": "lesson-what-is-defi",
       "description": "Abstract financial chart with glowing nodes",
       "imageUrl": "https://images.unsplash.com/photo-1639322537231-2f206e06af84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2MTc1NzM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "financial network"
+    },
+    {
+      "id": "lesson-defi-lending-borrowing",
+      "description": "Two hands exchanging currency",
+      "imageUrl": "https://images.unsplash.com/photo-1642393529891-2d5d898f6b7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnlwdG8lMjBsZW5kaW5nfGVufDB8fHx8MTc2MjE0NjIzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crypto lending"
+    },
+    {
+      "id": "lesson-intro-smart-contracts",
+      "description": "A digital document with a seal of approval",
+      "imageUrl": "https://images.unsplash.com/photo-1628198782976-b6329c488a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNvbnRyYWN0fGVufDB8fHx8MTc2MjE0NjI4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart contract"
+    },
+    {
+      "id": "lesson-solidity-basics",
+      "description": "Close up of Solidity code on a dark screen",
+      "imageUrl": "https://images.unsplash.com/photo-1681246104868-45b6375d315d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xpZGl0eSUyMGNvZGV8ZW58MHx8fHwxNzYyMTQ2MzE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solidity code"
     },
     {
       "id": "avatar",

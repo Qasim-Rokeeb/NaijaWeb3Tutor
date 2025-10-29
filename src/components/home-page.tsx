@@ -11,9 +11,33 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import tracksData from '@/lib/tracks.json';
 import type { Track } from '@/lib/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
 
 export function HomePage() {
     const tracks: Track[] = tracksData;
+
+    const faqs = [
+        {
+          question: "What is Web3?",
+          answer: "Web3 is the next evolution of the internet, built on decentralized technologies like blockchain. It's about shifting power from large corporations to individual users, giving you more control over your data and digital identity."
+        },
+        {
+          question: "Do I need to know how to code?",
+          answer: "Not at all! Our 'Web3 Basics' track is designed for absolute beginners with no coding experience. We'll start with the fundamental concepts. If you do want to learn to code, we have tracks for that too!"
+        },
+        {
+          question: "Is this platform really free?",
+          answer: "Yes, all the learning materials on NaijaWeb3Tutor are completely free. Our mission is to make Web3 education accessible to as many Nigerians as possible."
+        },
+        {
+            question: "What is a 'wallet' in Web3?",
+            answer: "A Web3 wallet (like MetaMask or Phantom) is a digital wallet that allows you to store, send, and receive cryptocurrencies and NFTs. It's your personal gateway to interacting with decentralized applications (dApps)."
+        },
+        {
+          question: "How do I get involved in the community?",
+          answer: "Check out our 'Join Web3 Communities' page! We've listed some of the most active and supportive communities in Nigeria and across Africa. Joining one is the best way to network, learn, and find opportunities."
+        }
+      ];
 
     return (
         <div className="min-h-screen bg-background text-foreground">
@@ -136,7 +160,36 @@ export function HomePage() {
                       </div>
                   </div>
                 </section>
+                
+                <section id="faq" className="py-20 lg:py-24">
+                    <div className="container max-w-4xl">
+                        <div className="text-center mb-12">
+                            <h2 className="font-headline text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
+                            <p className="max-w-2xl mx-auto text-muted-foreground mt-4">
+                                Have questions? We've got answers. Here are some common queries from our community.
+                            </p>
+                        </div>
+                        <Accordion type="single" collapsible className="w-full">
+                            {faqs.map((faq, index) => (
+                                <AccordionItem value={`item-${index + 1}`} key={index}>
+                                    <AccordionTrigger className="font-bold text-lg text-left">{faq.question}</AccordionTrigger>
+                                    <AccordionContent className="text-muted-foreground text-base">
+                                        {faq.answer}
+                                    </AccordionContent>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
+                    </div>
+                </section>
             </main>
+
+             <footer className="border-t bg-secondary">
+                <div className="container py-8 text-center text-muted-foreground">
+                    <p>&copy; {new Date().getFullYear()} NaijaWeb3Tutor. All rights reserved.</p>
+                    <p className="text-sm mt-2">Empowering the next generation of Nigerian Web3 builders.</p>
+                </div>
+            </footer>
+            
             <AiChatWidget />
         </div>
     );
