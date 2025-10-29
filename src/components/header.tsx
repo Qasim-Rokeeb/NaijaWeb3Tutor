@@ -1,4 +1,3 @@
-
 "use client"
 import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
@@ -13,7 +12,7 @@ export function Header() {
                 </Link>
                 <div className="hidden md:flex items-center space-x-2">
                     <Button variant="ghost" asChild>
-                        <Link href="/#tracks">Get Started</Link>
+                        <Link href="/learn">Learning Tracks</Link>
                     </Button>
                     <Button variant="ghost" asChild>
                         <Link href="/communities">Join Web3 Communities</Link>

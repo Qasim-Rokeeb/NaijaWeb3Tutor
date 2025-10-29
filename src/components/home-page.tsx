@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from 'next/link';
@@ -14,7 +13,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
 
 export function HomePage() {
-    const tracks: Track[] = tracksData;
+    const featuredTracks: Track[] = tracksData.slice(0, 3);
 
     const faqs = [
         {
@@ -65,7 +64,7 @@ export function HomePage() {
                     </p>
                     <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-500 delay-400">
                         <Button asChild size="lg" className="font-semibold">
-                            <Link href="/#tracks">
+                            <Link href="/learn">
                                 Start Learning
                             </Link>
                         </Button>
@@ -117,13 +116,13 @@ export function HomePage() {
                 <section id="tracks" className="py-20 lg:py-24 bg-secondary">
                   <div className="container">
                       <div className="text-center mb-12">
-                        <h2 className="font-headline text-3xl md:text-4xl font-bold">Choose Your Learning Path</h2>
+                        <h2 className="font-headline text-3xl md:text-4xl font-bold">Featured Learning Paths</h2>
                         <p className="max-w-2xl mx-auto text-muted-foreground mt-4">
                             These learning tracks are your first step into Web3. Start with the basics or dive into a specific ecosystem.
                         </p>
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {tracks.map(track => {
+                        {featuredTracks.map(track => {
                             const trackImage = PlaceHolderImages.find(img => img.id === track.imageId);
                             return (
                                 <Link href={`/learn/${track.id}`} key={track.id} className="block transform hover:-translate-y-2 transition-transform duration-300">
@@ -155,6 +154,11 @@ export function HomePage() {
                                 </Link>
                             )
                         })}
+                      </div>
+                      <div className="mt-12 text-center">
+                          <Button asChild size="lg">
+                              <Link href="/learn">View All Learning Tracks</Link>
+                          </Button>
                       </div>
                   </div>
                 </section>

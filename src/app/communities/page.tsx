@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -35,6 +34,11 @@ const communities = [
         description: "A pan-African community of software developers and enthusiasts. While not strictly Web3, it's a massive network for any developer looking to connect and grow.",
         link: "https://forloop.africa/",
     },
+    {
+        name: "Solana Superteam NG",
+        description: "The Nigerian chapter of the Solana Superteam. A hub for Solana developers and enthusiasts to collaborate, earn, and build on the Solana network.",
+        link: "https://x.com/SuperteamNG",
+    }
 ];
 
 export default function CommunitiesPage() {
