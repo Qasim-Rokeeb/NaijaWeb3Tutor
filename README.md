@@ -5,6 +5,10 @@
 
 NaijaWeb3Tutor is a free, mobile-first learning platform dedicated to making Web3 education accessible and relatable for Nigerians. Our mission is to onboard the next wave of Nigerian talent into the global decentralized ecosystem by simplifying complex topics and providing clear, structured learning paths.
 
+## Live Demo
+
+The application is deployed on Vercel and can be accessed here: [https://naija-web3-tutor.vercel.app/](https://naija-web3-tutor.vercel.app/)
+
 ## Key Features
 
 *   **Curated Learning Tracks:** Step-by-step guides on topics like Web3 Basics, Solana, DeFi, and Smart Contract Development.
@@ -19,7 +23,7 @@ NaijaWeb3Tutor is a free, mobile-first learning platform dedicated to making Web
 *   **Language:** [TypeScript](https://www.typescriptlang.org/)
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [ShadCN UI](https://ui.shadcn.com/)
 *   **Generative AI:** [Genkit (Google AI)](https://firebase.google.com/docs/genkit)
-*   **Deployment:** Firebase App Hosting
+*   **Deployment:** [Vercel](https://vercel.com/)
 
 ## Project Structure
 
