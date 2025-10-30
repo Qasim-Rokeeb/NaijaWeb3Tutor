@@ -15,6 +15,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './
 
 export function HomePage() {
     const featuredTracks: Track[] = tracksData.slice(0, 3);
+    const heroImage = PlaceHolderImages.find(p => p.id === "track-web3-basics");
 
     const faqs = [
         {
@@ -45,13 +46,13 @@ export function HomePage() {
             <main>
                 <section className="relative text-center py-20 md:py-32 lg:py-40 flex flex-col items-center justify-center container">
                    <div className="absolute inset-0 -z-10 overflow-hidden">
-                       <Image
-                         src="https://images.unsplash.com/photo-1750969185331-e03829f72c7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZXR3b3JrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYxNzAxOTg3fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                         alt="Abstract network"
+                       {heroImage && <Image
+                         src={heroImage.imageUrl}
+                         alt={heroImage.description}
                          fill
                          className="object-cover opacity-10 dark:opacity-20"
-                         data-ai-hint="network abstract"
-                       />
+                         data-ai-hint={heroImage.imageHint}
+                       />}
                        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
                    </div>
 
