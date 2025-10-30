@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowLeft, Youtube, Clock } from "lucide-react";
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/placeholder-images";
 import tracksData from "@/lib/tracks.json";
 import lessonsData from "@/lib/lessons.json";
 import type { Lesson, Track } from "@/lib/types";
@@ -18,7 +18,7 @@ export default function TrackPage({ params: paramsPromise }: { params: Promise<{
 
     const track = allTracks.find(t => t.id === params.trackId);
     const lessons = allLessons.filter(l => l.trackId === params.trackId);
-    const trackImage = PlaceHolderImages.find(img => img.id === track?.imageId);
+    const trackImage = placeholderImages.find(img => img.id === track?.imageId);
 
     if (!track) {
         return (
@@ -77,7 +77,7 @@ export default function TrackPage({ params: paramsPromise }: { params: Promise<{
                         <h2 className="font-headline text-2xl font-bold mb-6">Lessons</h2>
                         <div className="space-y-4">
                             {lessons.map((lesson, index) => {
-                                const lessonImage = PlaceHolderImages.find(img => img.id === lesson.imageId);
+                                const lessonImage = placeholderImages.find(img => img.id === lesson.imageId);
                                 return (
                                     <Link key={lesson.id} href={`/learn/${track.id}/${lesson.id}`} className="block">
                                         <Card className="overflow-hidden transition-all hover:shadow-lg hover:border-primary/50">

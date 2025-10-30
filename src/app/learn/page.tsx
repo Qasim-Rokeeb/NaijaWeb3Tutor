@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BookOpen, PlusCircle } from "lucide-react";
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { placeholderImages } from "@/lib/placeholder-images";
 import tracksData from "@/lib/tracks.json";
 import type { Track } from "@/lib/types";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,7 +24,7 @@ export default function AllTracksPage() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {tracks.map(track => {
-                        const trackImage = PlaceHolderImages.find(img => img.id === track.imageId);
+                        const trackImage = placeholderImages.find(img => img.id === track.imageId);
                         return (
                             <Link href={`/learn/${track.id}`} key={track.id} className="block transform hover:-translate-y-2 transition-transform duration-300">
                                 <Card className="h-full flex flex-col overflow-hidden">

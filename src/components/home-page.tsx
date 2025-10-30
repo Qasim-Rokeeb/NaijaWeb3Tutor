@@ -7,7 +7,7 @@ import { Header } from "./header";
 import { AiChatWidget } from "./ai/ai-chat-widget";
 import { ArrowDown, BookOpen, Layers, Lightbulb, Users } from 'lucide-react';
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { placeholderImages } from '@/lib/placeholder-images';
 import tracksData from '@/lib/tracks.json';
 import type { Track } from '@/lib/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
@@ -15,7 +15,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './
 
 export function HomePage() {
     const featuredTracks: Track[] = tracksData.slice(0, 3);
-    const heroImage = PlaceHolderImages.find(p => p.id === "track-web3-basics");
+    const heroImage = placeholderImages.find(p => p.id === "track-web3-basics");
 
     const faqs = [
         {
@@ -133,7 +133,7 @@ export function HomePage() {
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {featuredTracks.map(track => {
-                            const trackImage = PlaceHolderImages.find(img => img.id === track.imageId);
+                            const trackImage = placeholderImages.find(img => img.id === track.imageId);
                             return (
                                 <Link href={`/learn/${track.id}`} key={track.id} className="block transform hover:-translate-y-2 transition-transform duration-300">
                                     <Card className="h-full flex flex-col overflow-hidden">
