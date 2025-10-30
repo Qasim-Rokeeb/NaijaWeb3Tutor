@@ -35,9 +35,9 @@
         "trackId": "solana-essentials",
         "title": "Introduction to Solana",
         "subtitle": "Learn about high-speed blockchain.",
-        "duration": 2,
+        "duration": 5,
         "imageId": "lesson-what-is-solana",
-        "youtubeUrl": "https://www.youtube.com/watch?v=1_G6i-pSgks",
+        "youtubeUrl": "https://www.youtube.com/watch?v=u3ivt2i3-5A",
         "description": "Get a quick introduction to Solana, a blockchain known for its incredible speed and low transaction costs. Discover what makes it different from other networks."
     },
     {
@@ -45,9 +45,9 @@
         "trackId": "solana-essentials",
         "title": "The Solana Ecosystem",
         "subtitle": "Discover dApps and projects.",
-        "duration": 14,
+        "duration": 8,
         "imageId": "lesson-solana-ecosystem",
-        "youtubeUrl": "https://www.youtube.com/watch?v=30jaR28n_4k",
+        "youtubeUrl": "https://www.youtube.com/watch?v=bdsY_aw_v8s",
         "description": "Explore the vibrant ecosystem of decentralized applications (dApps) built on Solana, from DeFi protocols to NFT marketplaces."
     },
     {
@@ -55,9 +55,9 @@
         "trackId": "solana-essentials",
         "title": "Setting Up a Solana Wallet",
         "subtitle": "Your gateway to the Solana ecosystem.",
-        "duration": 6,
+        "duration": 10,
         "imageId": "lesson-solana-wallet-setup",
-        "youtubeUrl": "https://www.youtube.com/watch?v=gTrbVfFFV2Y",
+        "youtubeUrl": "https://www.youtube.com/watch?v=425-v4u9-7I",
         "description": "A step-by-step guide to setting up your first Solana wallet, like Phantom or Solflare, so you can start interacting with the ecosystem."
     },
     {
@@ -65,9 +65,9 @@
         "trackId": "defi-mastery",
         "title": "What is DeFi?",
         "subtitle": "Introduction to Decentralized Finance.",
-        "duration": 6,
+        "duration": 16,
         "imageId": "lesson-what-is-defi",
-        "youtubeUrl": "https://www.youtube.com/watch?v=btB-nK0_2sA",
+        "youtubeUrl": "https://youtu.be/17QRFlml4pA?si=WV7YuWDo3DhnnnPW",
         "description": "An overview of Decentralized Finance (DeFi), explaining how it aims to build a new financial system on the blockchain, open to everyone."
     },
     {
