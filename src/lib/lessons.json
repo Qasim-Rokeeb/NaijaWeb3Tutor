@@ -95,9 +95,9 @@
         "trackId": "smart-contract-dev",
         "title": "Solidity for Beginners",
         "subtitle": "The language of Ethereum.",
-        "duration": 120,
+        "duration": 235,
         "imageId": "lesson-solidity-basics",
-        "youtubeUrl": "https://www.youtube.com/watch?v=hdJ3j2v4t_4",
+        "youtubeUrl": "https://youtu.be/AYpftDFiIgk?si=rQ-wahLV3NNVkUxK",
         "description": "Get started with Solidity, the most popular programming language for writing smart contracts on Ethereum and other compatible blockchains."
     }
 ]
