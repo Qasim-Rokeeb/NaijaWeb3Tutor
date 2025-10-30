@@ -9,8 +9,10 @@ import tracksData from "@/lib/tracks.json";
 import lessonsData from "@/lib/lessons.json";
 import type { Lesson, Track } from "@/lib/types";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { use } from "react";
 
-export default function TrackPage({ params }: { params: { trackId: string } }) {
+export default function TrackPage({ params: paramsPromise }: { params: Promise<{ trackId: string }> }) {
+    const params = use(paramsPromise);
     const allTracks: Track[] = tracksData as Track[];
     const allLessons: Lesson[] = lessonsData as Lesson[];
 

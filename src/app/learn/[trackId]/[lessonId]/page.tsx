@@ -4,10 +4,11 @@
 import { Header } from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Clock } from "lucide-react";
+import { ArrowLeft, Clock } from "lucide-react";
 import lessonsData from "@/lib/lessons.json";
 import tracksData from "@/lib/tracks.json";
 import type { Lesson, Track } from "@/lib/types";
+import { use } from "react";
 
 function getYouTubeEmbedUrl(url: string): string | null {
   if (!url) return null;
@@ -21,7 +22,8 @@ function getYouTubeEmbedUrl(url: string): string | null {
 }
 
 
-export default function LessonPage({ params }: { params: { trackId: string; lessonId: string } }) {
+export default function LessonPage({ params: paramsPromise }: { params: Promise<{ trackId: string; lessonId: string }> }) {
+    const params = use(paramsPromise);
     const allLessons: Lesson[] = lessonsData as Lesson[];
     const allTracks: Track[] = tracksData as Track[];
 
