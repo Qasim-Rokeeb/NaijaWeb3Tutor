@@ -35,9 +35,9 @@
         "trackId": "solana-essentials",
         "title": "Introduction to Solana",
         "subtitle": "Learn about high-speed blockchain.",
-        "duration": 5,
+        "duration": 10,
         "imageId": "lesson-what-is-solana",
-        "youtubeUrl": "https://www.youtube.com/watch?v=u3ivt2i3-5A",
+        "youtubeUrl": "https://www.youtube.com/watch?v=IQyI3c3T2bM",
         "description": "Get a quick introduction to Solana, a blockchain known for its incredible speed and low transaction costs. Discover what makes it different from other networks."
     },
     {
@@ -45,9 +45,9 @@
         "trackId": "solana-essentials",
         "title": "The Solana Ecosystem",
         "subtitle": "Discover dApps and projects.",
-        "duration": 8,
+        "duration": 14,
         "imageId": "lesson-solana-ecosystem",
-        "youtubeUrl": "https://www.youtube.com/watch?v=bdsY_aw_v8s",
+        "youtubeUrl": "https://www.youtube.com/watch?v=3vfUm2p-M6w",
         "description": "Explore the vibrant ecosystem of decentralized applications (dApps) built on Solana, from DeFi protocols to NFT marketplaces."
     },
     {
@@ -55,9 +55,9 @@
         "trackId": "solana-essentials",
         "title": "Setting Up a Solana Wallet",
         "subtitle": "Your gateway to the Solana ecosystem.",
-        "duration": 10,
+        "duration": 7,
         "imageId": "lesson-solana-wallet-setup",
-        "youtubeUrl": "https://www.youtube.com/watch?v=425-v4u9-7I",
+        "youtubeUrl": "https://www.youtube.com/watch?v=gTrb-0s2D48",
         "description": "A step-by-step guide to setting up your first Solana wallet, like Phantom or Solflare, so you can start interacting with the ecosystem."
     },
     {
@@ -75,9 +75,9 @@
         "trackId": "defi-mastery",
         "title": "Lending & Borrowing in DeFi",
         "subtitle": "Become your own bank.",
-        "duration": 9,
+        "duration": 14,
         "imageId": "lesson-defi-lending-borrowing",
-        "youtubeUrl": "https://www.youtube.com/watch?v=aG0ob2N8_sQ",
+        "youtubeUrl": "https://youtu.be/aTp9er6S73M?si=1QEVCBUSAhUqjviC",
         "description": "Learn how you can earn interest on your crypto by lending it out, or take out loans without a middleman, through DeFi protocols."
     },
     {
