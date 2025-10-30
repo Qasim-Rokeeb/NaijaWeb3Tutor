@@ -85,9 +85,9 @@
         "trackId": "smart-contract-dev",
         "title": "Intro to Smart Contracts",
         "subtitle": "Code that executes itself.",
-        "duration": 25,
+        "duration": 4,
         "imageId": "lesson-intro-smart-contracts",
-        "youtubeUrl": "https://www.youtube.com/watch?v=pWGLtjG-F5c",
+        "youtubeUrl": "https://youtu.be/ZE2HxTmxfrI?si=yw-R5tZcODF3FVoL",
         "description": "Understand the fundamentals of smart contracts, the self-executing programs that are the backbone of dApps and DeFi."
     },
     {
