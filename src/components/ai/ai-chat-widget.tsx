@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useRef, useEffect } from "react";
@@ -20,7 +19,7 @@ export function AiChatWidget() {
     const [isOpen, setIsOpen] = useState(false);
     const [input, setInput] = useState("");
     const [messages, setMessages] = useState<Message[]>([
-        { role: 'assistant', content: "Hi there! I'm your AI study buddy. Ask me anything about Web3." }
+        { role: 'assistant', content: "Howfa! I be your AI study buddy, Oga Web3. Ask me anything about Web3, no wahala!" }
     ]);
     const [isLoading, setIsLoading] = useState(false);
     const { toast } = useToast();
@@ -58,7 +57,7 @@ export function AiChatWidget() {
             setMessages(prev => [...prev, aiMessage]);
         } catch (error) {
             console.error("AI Buddy Error:", error);
-            const errorMessage: Message = { role: 'assistant', content: "Sorry, I'm having a little trouble right now. Please try again later." };
+            const errorMessage: Message = { role: 'assistant', content: "Omo, my brain just freeze small. Try ask me again, abeg." };
             setMessages(prev => [...prev, errorMessage]);
             toast({
                 variant: "destructive",
@@ -82,9 +81,9 @@ export function AiChatWidget() {
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
                 <SheetContent className="flex flex-col w-full sm:max-w-md">
                     <SheetHeader>
-                        <SheetTitle className="font-headline text-2xl">AI Study Buddy</SheetTitle>
+                        <SheetTitle className="font-headline text-2xl">AI Study Buddy (Oga Web3)</SheetTitle>
                         <SheetDescription>
-                            Your personal Web3 tutor. Ask me anything!
+                            Your personal Web3 tutor, the Naija way!
                         </SheetDescription>
                     </SheetHeader>
                     <div className="flex-grow my-4 -mx-6">
@@ -105,7 +104,7 @@ export function AiChatWidget() {
                         <form onSubmit={handleSubmit} className="flex w-full items-center space-x-2">
                             <Input
                                 id="message"
-                                placeholder="Type your question..."
+                                placeholder="Ask me anything, my guy..."
                                 className="flex-1"
                                 autoComplete="off"
                                 value={input}
