@@ -39,49 +39,49 @@
     {
       "id": "lesson-what-is-nft",
       "description": "Artistic digital monkey",
-      "imageUrl": "https://images.unsplash.com/photo-1707589337877-28fd431262ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb25rZXklMjBhcnR8ZW58MHx8fHwxNzYxNzU3MzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1707589337877-28fd431262ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb25rZXklMjBhcnR8ZW58MHx8fHwxNzYxNzU3MzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "monkey art"
     },
     {
       "id": "lesson-what-is-solana",
       "description": "Fast moving light trails",
-      "imageUrl": "https://images.unsplash.com/photo-1604818659418-1c53672b00f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGVlZCUyMGxpZ2h0fGVufDB8fHx8MTc2MTc1NzM0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604818659418-1c53672b00f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcGVlZCUyMGxpZ2h0fGVufDB8fHx8MTc2MTc1NzM0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "speed light"
     },
     {
       "id": "lesson-solana-ecosystem",
       "description": "A vibrant city of dApps",
-      "imageUrl": "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwY2l0eXxlbnwwfHx8fDE3NjE3NTQ0NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwY2l0eXxlbnwwfHx8fDE3NjE3NTQ0NjV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "digital city"
     },
     {
       "id": "lesson-solana-wallet-setup",
       "description": "A secure digital vault icon",
-      "imageUrl": "https://images.unsplash.com/photo-1718042453625-24e65035f583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwdmF1bHR8ZW58MHx8fHwxNzYyMTQ2MTU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1718042453625-24e65035f583?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwdmF1bHR8ZW58MHx8fHwxNzYyMTQ2MTU4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "digital vault"
     },
     {
       "id": "lesson-what-is-defi",
       "description": "Abstract financial chart with glowing nodes",
-      "imageUrl": "https://images.unsplash.com/photo-1639322537231-2f206e06af84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2MTc1NzM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1639322537231-2f206e06af84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNpYWwlMjBuZXR3b3JrfGVufDB8fHx8MTc2MTc1NzM0N3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "financial network"
     },
     {
       "id": "lesson-defi-lending-borrowing",
       "description": "Two hands exchanging currency",
-      "imageUrl": "https://images.unsplash.com/photo-1642393529891-2d5d898f6b7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnlwdG8lMjBsZW5kaW5nfGVufDB8fHx8MTc2MjE0NjIzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1642393529891-2d5d898f6b7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcnlwdG8lMjBsZW5kaW5nfGVufDB8fHx8MTc2MjE0NjIzM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "crypto lending"
     },
     {
       "id": "lesson-intro-smart-contracts",
       "description": "A digital document with a seal of approval",
-      "imageUrl": "https://images.unsplash.com/photo-1628198782976-b6329c488a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNvbnRyYWN0fGVufDB8fHx8MTc2MjE0NjI4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1628198782976-b6329c488a6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGNvbnRyYWN0fGVufDB8fHx8MTc2MjE0NjI4NHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "smart contract"
     },
     {
       "id": "lesson-solidity-basics",
       "description": "Close up of Solidity code on a dark screen",
-      "imageUrl": "https://images.unsplash.com/photo-1681246104868-45b6375d315d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xpZGl0eSUyMGNvZGV8ZW58MHx8fHwxNzYyMTQ2MzE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1681246104868-45b6375d315d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xpZGl0eSUyMGNvZGV8ZW58MHx8fHwxNzYyMTQ2MzE5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solidity code"
     },
     {
